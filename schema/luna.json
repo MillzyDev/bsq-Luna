@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MillzyDev/bsq-Luna/blob/main/schema/luna.json",
+  "title": "Luna Json Manifest",
+  "description": "Tells luna what's in your script.",
+  "type": "object",
+  "properties": {
+    "_LunaVersion": {
+      "description": "The version of luna this was designed to run on.",
+      "type": "string",
+      "enum": [
+        "1.0.0"
+      ]
+    },
+    "name": {
+      "description": "The name of your custom script",
+      "type": "string"
+    },
+    "author": {
+      "description": "The author of the script (that's you!)",
+      "type": "string"
+    },
+    "entrypoint": {
+      "description": "The file that Luna will actually execute.",
+      "type": "string"
+    },
+    "version": {
+      "description": "The version of your script.",
+      "type": "string"
+    }
+  }
+}
