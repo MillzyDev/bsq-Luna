@@ -6,9 +6,6 @@ A Beat Saber mod that allows you to easily interact with the game using Lua.
 To get started, create a new project using the [Luna Script Template](https://github.com/MillzyDev/Luna-Script-Template).
 Once that is done, pay your attention to the `main.lua` file. This file is the main "entrypoint" for your mod script.
 
-#### ⚠️ SECUIRTY ⚠️
-> For security reasons the Lua standard library is not available within Luna addons. This is to prevent malware from being embedded in addons.
-
 ## Addon Metadata
 Installed addons must have a table labelled metadata that contains information about your mod. It is already in your `main.lua` file, if you used the template.
 
