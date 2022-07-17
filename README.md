@@ -12,8 +12,6 @@ Once that is done, pay your attention to the `main.lua` file. This file is the m
 ## Addon Metadata
 Installed addons must have a table labelled metadata that contains information about your mod. It is already in your `main.lua` file, if you used the template.
 
-You should be able to see the metadata table at the top of your `main.lua` file, if you used the template.
-
 Make sure that this exists and all of the fields are present. The addon will not load if the metadata is invalid.
 
 ```lua
